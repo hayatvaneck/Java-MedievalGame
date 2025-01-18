@@ -83,15 +83,8 @@ public class MedievalGame {
         
     } // End of start
 
-    private Player combat(Player player, Enemy enemy){
-        System.out.println("Battle starts!");
-        while (player.getHealth() > 0 && enemy.getHealth() > 0) {
-            String action = console.next().toLowerCase();
-            if (action.equals("attack")){
+    // private Player combat(Player player, Enemy enemy)
 
-            }
-        }
-    }
 
     private void save() {
         // Add save functionality here
